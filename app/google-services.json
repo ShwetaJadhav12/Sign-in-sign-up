@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934349084766",
+    "project_id": "data-base-sign-up-73e2b",
+    "storage_bucket": "data-base-sign-up-73e2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934349084766:android:75818307ca1506af09bccf",
+        "android_client_info": {
+          "package_name": "com.example.dab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhxw-Y00hvqY2H709wX0xb5mOFwc91wH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
