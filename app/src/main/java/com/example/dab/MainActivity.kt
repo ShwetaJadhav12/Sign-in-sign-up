@@ -1,8 +1,10 @@
 package com.example.dab
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,7 +26,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val signUp=findViewById<Button  >(R.id.signUp)
+        val signUp=findViewById<Button>(R.id.signUp)
+        val openNew=findViewById<TextView>(R.id.openNew)
         val name=findViewById<TextInputEditText>(R.id.name)
         val mail=findViewById<TextInputEditText>(R.id.mail)
         val pass=findViewById<TextInputEditText>(R.id.pass)
@@ -54,6 +57,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"failed to signed up",Toast.LENGTH_SHORT).show()
             }
 
+        }
+        openNew.setOnClickListener{
+            val intent=Intent(applicationContext,signin::class.java)
+            startActivity(intent)
         }
 
     }

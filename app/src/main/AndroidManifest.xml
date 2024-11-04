@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Dab"
         tools:targetApi="31">
         <activity
+            android:name=".aaccount"
+            android:exported="false" />
+        <activity
+            android:name=".signin"
+            android:exported="false" />
+        <activity
+            android:name=".welcome"
+            android:exported="false" />
+        <activity
+            android:name=".signIn"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

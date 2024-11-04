@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".welcome">
+
+
+    <TextView
+        android:id="@+id/tWelcome"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+
+        android:background="@color/yellow"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_gravity="center"
+        android:paddingTop="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:textSize="19dp"
+        android:text="Here are your details" />
+
+    <TextView
+        android:id="@+id/showMail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:gravity="center"
+
+        android:background="@color/yellow"
+        android:layout_gravity="center"
+        android:text="Mail" />
+    <TextView
+        android:id="@+id/showId"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:background="@color/yellow"
+        android:layout_gravity="center"
+        android:text="Name" />
+
+
+</LinearLayout>
